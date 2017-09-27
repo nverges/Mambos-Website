@@ -1,13 +1,13 @@
 use Mambos;
 
-INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Mambo\'s Platter','Fried Pork Bites, Dominican Style Fried Chicken & Tostones','Regular $14.99 - Large $24.99','appetizer', CURDATE(), CURDATE());
-INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Empanadas','Caribbean Style Turnovers Made with Ground Beef, Shredded Chicken, Cheese or Cheese with Guava','2 for $4.99 - 1 for $2.99','appetizer', CURDATE(), CURDATE());
-INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Quipes','A Dominican version of the Lebanese kibbeh, made with Whole Grain, Ground Beef, Raisins, Onion, Pepper, Basil & Tomatoes. ','$2.99 each','appetizer', CURDATE(), CURDATE());
+INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Mambo\'s Platter','Fried Pork Bites, Dominican Style Fried Chicken & Tostones','Reg $14.99\nLg $24.99','appetizer', CURDATE(), CURDATE());
+INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Empanadas','Caribbean Style Turnovers Made with Ground Beef, Shredded Chicken, Cheese or Cheese with Guava','2 for $4.99\n1 for $2.99','appetizer', CURDATE(), CURDATE());
+INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Quipes','A Dominican version of the Lebanese kibbeh, made with Whole Grain, Ground Beef, Raisins, Onion, Pepper, Basil & Tomatoes. ','$2.99 ea','appetizer', CURDATE(), CURDATE());
 INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Yucca Frita','Deep Fried for a Golden-Brown Outer Crisp & Served with Mambo\'s Sauce','S6.99','appetizer', CURDATE(), CURDATE());
 INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Ensalada de la Casa','Cabbage, Lettuce, Tomatoes, Cucumbers & Avocado \n + Add Chicken $4.00','$5.99','salad', CURDATE(), CURDATE());
 INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Mambo\'s Caesar Salad','Caesar Salad Served with Plantain Chips & Avocado Slices \n + Add Chicken $4.00','$7.99','salad', CURDATE(), CURDATE());
-INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Martes - Sabado / Tuesday - Saturday','Sopa de Pollo / Chicken Soup or Sopa de Res / Beef Soup','Regular $4.99 - Large $7.99','soup', CURDATE(), CURDATE());
-INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Domingo / Sunday','Sancocho / Dominican Specialty Stew Made with a Variety of Meat & Vegetables \n + with White Rice','Regular $7.99 - Large $11.99','soup', CURDATE(), CURDATE());
+INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Martes - Sabado / Tuesday - Saturday','Sopa de Pollo / Chicken Soup or Sopa de Res / Beef Soup','Reg $4.99\nLg $7.99','soup', CURDATE(), CURDATE());
+INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Domingo / Sunday','Sancocho / Dominican Specialty Stew Made with a Variety of Meat & Vegetables \n + with White Rice','Reg $7.99\nLg $11.99','soup', CURDATE(), CURDATE());
 INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Bistec Encebollado ','Thinly Sliced Seasoned Steak cooked with Onions ','$14.99','beef', CURDATE(), CURDATE());
 INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Bistec Guisado / Braised Steak ','Made with our Savory Dominican Seasoning','$13.99','beef', CURDATE(), CURDATE());
 INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Bistec Salteado ','Sliced Steak Cooked with Red & Green Peppers ','$14.99','beef', CURDATE(), CURDATE());
@@ -31,7 +31,7 @@ INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES 
 INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Pollo/Chicken Sandwich ','Seasoned Grilled Chicken ','$9.99','sandwich', CURDATE(), CURDATE());
 INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Maduros/Sweet Plantains ','','$2.99','side', CURDATE(), CURDATE());
 INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Tostones/Fried Green Plantains ','','$2.99','side', CURDATE(), CURDATE());
-INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Arroz/Rice','','M $2.99 - L $4.99','side', CURDATE(), CURDATE());
+INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Arroz/Rice','','Sm $2.99\nLg $4.99','side', CURDATE(), CURDATE());
 INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Habichuelas/Beans','','$1.99','side', CURDATE(), CURDATE());
 INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Papas Fritas/Fries','','$2.49','side', CURDATE(), CURDATE());
 INSERT INTO dishes (name,description,price,category,createdAt,updatedAt) VALUES ('Vegetales/Vegetables','','$2.99','side', CURDATE(), CURDATE());
